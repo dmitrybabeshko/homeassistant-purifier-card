@@ -23,7 +23,7 @@ export default css`
   }
 
   .preview {
-    background-color: var(--primary-color);
+    background-color: var(--card-background-color);
     cursor: pointer;
     overflow: hidden;
     position: relative;
@@ -69,7 +69,7 @@ export default css`
     line-height: 48px;
     padding: 5px 10px;
     border-radius: 4px;
-    background: rgba(0, 0, 0, 0.6);
+    background: var(--card-background-color);
     color: var(--text-primary-color);
   }
 
@@ -140,10 +140,6 @@ export default css`
   .stats-value {
     font-size: 20px;
     font-weight: bold;
-  }
-
-  ha-icon {
-    color: #fff;
   }
 
   .toolbar {
